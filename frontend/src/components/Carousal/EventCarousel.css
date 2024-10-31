@@ -1,0 +1,49 @@
+.event-carousel {
+  padding: 20px; 
+  width: 92vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0; 
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold; 
+}
+
+.navigation {
+  display: flex;
+}
+
+.arrow {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; 
+  height: 30px; 
+  background-color: #e2e2e7; 
+  border-radius: 50%; 
+  margin: 0 8px; 
+}
+
+.carousel-container {
+  display: flex;
+  gap: 20px; 
+  overflow: hidden; 
+}
+
+/* Fixed width for each EventCard */
+.card {
+  width: 200px; /* Set a fixed width for each card */
+  flex-shrink: 0; /* Prevent cards from shrinking */
+}
+@media (max-width: 768px){
+  .event-carousel{
+    padding: 10px;
+  }
+}

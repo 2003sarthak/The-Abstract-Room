@@ -1,0 +1,335 @@
+.home {
+  width: 100%;
+  padding: 10px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-main {
+  margin-top: 30px;
+  display: flex;
+  width: 90%;
+}
+.left-text img {
+  height: 320px;
+}
+.image-container {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.main-image {
+  height: 320px;
+  width: 450px;
+  display: block;
+}
+
+.banner {
+  width: 400px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*2nd part*/
+.pause-for-art {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.art-Img {
+  height: 360px;
+}
+.underline-text-container {
+  width: 400px;
+  position: relative;
+  display: inline-block;
+}
+
+.text-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.underline-image {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  width: 170px;
+  height: 100px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.art-text1 {
+  margin: 4px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.art-text2 {
+  margin: 4px 0;
+  font-size: 1.7rem;
+}
+.art-img-component {
+  position: relative;
+}
+/*evenet part*/
+.carousel {
+  width: 100%;
+}
+/*what we do part*/
+.What-we-do {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.What-we-do2 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.what-img-component {
+  position: relative;
+}
+.what-text1 {
+  margin: 4px 50px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.what-Img {
+  height: 450px;
+}
+.Accordian-container {
+  width: 500px;
+}
+.offline-img {
+  height: 300px;
+}
+.offline-accordian-container {
+  width: 500px;
+  margin: 50px 50px;
+}
+.offline-head-img {
+  width: 200px;
+}
+
+.image-container-down {
+  margin-left: 190px;
+  height: 420px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.background-image {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+/* Centered text styling */
+.centered-text {
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  color: white;
+  line-height: 1.5;
+}
+/*membership page */
+.membership-page {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #097277;
+  padding: 60px;
+}
+
+.intro-text {
+  padding: 0 120px;
+  font-size: 17px;
+  margin: 50px 50px;
+  color: #ffffff;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.note-text {
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.more-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.more-info img {
+  width: 300px;
+  height: 40px;
+}
+
+.more-info-text {
+  position: absolute;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+}
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*cahtbubble part*/
+.chat-bubbles {
+  margin: 140px 0;
+  padding: 20px;
+  position: relative;
+}
+
+/*sessions */
+/* .sessions {
+  margin-top: 200px;
+} */
+.sessions p {
+  font-size: 1.5rem;
+}
+.sessions-videos {
+  height: 500px;
+  background-color: rgb(175, 175, 175);
+  width: 100%;
+}
+
+/*mobile view media queries*/
+@media (max-width: 768px){
+    .home-main{
+        flex-direction: column;
+    }
+    .left-text{
+        margin: auto;
+    }
+    .main-image{
+      width: 380px;
+    }
+    .pause-for-art{
+        flex-direction: column;
+    }
+    .underline-text-container{
+      width: 370px;
+    }
+    .underline-image{
+      left: 200px;
+    }
+    .text-content{
+      font-size: 1rem;
+    }
+    .art-Img{
+      height: 300px;
+    }
+    
+    .What-we-do{
+        flex-direction: column;
+    }
+    .what-img-component{
+      margin-bottom: 20px;
+    }
+    .What-we-do2{
+        flex-direction: column-reverse;
+    }
+    .what-Img{
+      height: 420px;
+    }
+    .Accordian-container{
+      width: 370px;
+    }
+    .offline-accordian-container{
+      margin: 50px 0;
+      width: 370px;
+    }
+    .offline-img{
+      width: 400px;
+    }
+    .image-container-down{
+        margin-left: 0px;
+        height: 400px;
+    }
+    .image-container-down img{
+        width: 400px;
+        height: 350px;
+    }
+    .centered-text{
+        top: 33%;
+        left: 49%;
+        font-size: 16px;
+        width: 80%;
+    }
+    .membership-page{
+      padding: 20px;
+      width: 380px;
+    }
+    .membership-page h1{
+        font-size: 1.5rem;
+    }
+    .intro-text{
+        padding: 0 35px;
+    }
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-bottom{
+        flex-direction: column;
+    }
+    .note-text{
+        display: none;
+    }
+    .chat-bubbles{
+        height: 400px;
+    }
+}

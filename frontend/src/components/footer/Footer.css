@@ -1,0 +1,38 @@
+.foot{
+    background-color: #FFCC00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+    height: 150px;
+    margin-top: 10px;
+}
+.footlogo{
+    margin-bottom: 35px;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.bubble p{
+    position: absolute;
+    left: 15px;
+    top: -10px;
+}
+@media (max-width: 768px){
+    .foot{
+        width: 105vw;
+        height: 200px;
+    }
+    .bubble{
+        flex-direction: column;
+    }
+    .footlogo{
+        height: 150px;
+    }
+    .bubble p{
+        top: -30px;
+    }
+}
