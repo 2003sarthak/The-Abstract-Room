@@ -228,7 +228,28 @@ function Home() {
       </div>
       <div className="sessions">
         <p>HAVE A LOOK AT OUR SESSIONS</p>
-        <div className="sessions-videos"></div>
+        <div className="sessions-videos">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/OocH82hu5v4?si=dmGL6yrnJmIQXg3i"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zMthJOi3P1U?si=0kPisKZ1ljbkM0Yi"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
       <div className="sessions">
         <p>CHECK OUT OUR INSTAGRAM</p>

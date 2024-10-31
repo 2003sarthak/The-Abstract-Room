@@ -179,6 +179,7 @@
   color: #ffffff;
   background-color: #097277;
   padding: 60px;
+  border-radius: 10px;
 }
 
 .intro-text {
@@ -228,22 +229,31 @@
 
 /*cahtbubble part*/
 .chat-bubbles {
-  margin: 140px 0;
+  margin: 160px 0;
   padding: 20px;
   position: relative;
 }
 
 /*sessions */
-/* .sessions {
-  margin-top: 200px;
-} */
+.sessions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .sessions p {
+  margin-top: 30px;
   font-size: 1.5rem;
 }
 .sessions-videos {
-  height: 500px;
-  background-color: rgb(175, 175, 175);
-  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+.sessions-videos iframe{
+  margin:20px;
+  border-radius: 10px;
 }
 
 /*mobile view media queries*/
@@ -258,6 +268,7 @@
       width: 380px;
     }
     .pause-for-art{
+        align-items: center;
         flex-direction: column;
     }
     .underline-text-container{
@@ -274,12 +285,14 @@
     }
     
     .What-we-do{
+      align-items: center;
         flex-direction: column;
     }
     .what-img-component{
       margin-bottom: 20px;
     }
     .What-we-do2{
+      align-items: center;
         flex-direction: column-reverse;
     }
     .what-Img{
@@ -310,7 +323,7 @@
         width: 80%;
     }
     .membership-page{
-      padding: 20px;
+      padding: 0;
       width: 380px;
     }
     .membership-page h1{
@@ -331,5 +344,11 @@
     }
     .chat-bubbles{
         height: 400px;
+    }
+    .sessions-videos{
+      flex-direction: column;
+    }
+    .sessions-videos iframe{
+      width: 350px;
     }
 }

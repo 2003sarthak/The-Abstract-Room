@@ -23,7 +23,7 @@
 }
 @media (max-width: 768px){
     .foot{
-        width: 105vw;
+        width: 100vw;
         height: 200px;
     }
     .bubble{
